@@ -96,7 +96,7 @@ Your implementation should also be able to handle link cost changes. In our test
 Note that you implementation only needs to support link cost changes, not network topology changes.
 
 Turn-in
-=======
+-------
 
 You are asked to turn in your source files, a Makefile, and a README file. You should implement using C/C++ and be able to run on testbed. Your program should take two parameters: the first parameter is the listening UDP port number and the second parameter is the input file that describes directly attached links) on startup. I.e., we invoke your program like:
 
@@ -107,7 +107,7 @@ Different nodes will listen at different UDP ports for routing update. The READM
 	$ turnin assignment2@network Makefile README dsdv.c[pp] ...
 
 Grading
-=======
+-------
 
 1.	60%: a working program that correctly computes the shortest paths from all-node startup and prints out the results in a reasonable time frame.
 
