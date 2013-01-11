@@ -38,11 +38,12 @@ Your program at host *n1* should take a text file as input, which describes
 the set of directly attached links and their costs. The first line of the text
 file is a single number and a string, where the number specify the total
 number of directly attached links and the string specify the name of current
-node. All subsequent lines in the input file are in the format of "_n2 machine
-cost port\_number_", which stands for a link between node *n1* and node *n2*
-with cost *cost*, and the program of node *n2* actually is running on *machine*
-and listening at port *port\_number*. Note that *cost* is a floating point
-number. The four fields are separated by spaces in each line of the input file.
+node. All subsequent lines in the input file are in the format of
+"*n2 machine cost port\_number*", which stands for a link between node *n1* 
+and node *n2* with cost *cost*, and the program of node *n2* actually is
+running on *machine* and listening at port *port\_number*. Note that *cost* is
+a floating point number. The four fields are separated by spaces in each line
+of the input file.
 
 Let's look at an example with the network topology shown in the following figure.
 
