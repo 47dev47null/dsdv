@@ -18,7 +18,7 @@ Your program at host *n1* should take a text file as input, which describes the 
 
 Let's look at an example with the network topology shown in the following figure.
 
-![network](network.jpg "Network Topology")
+![network](https://raw.github.com/47dev47null/dsdv/master/network.jpg "Network Topology")
 
 The input files at all hosts will look like the following:
 
